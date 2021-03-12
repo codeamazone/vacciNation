@@ -2,7 +2,7 @@ from pathlib import Path
 import pandas as pd
 
 
-p = Path(__file__).parent / 'src/germany_vaccinations_by_state.tsv'
+p = Path(__file__).parent / 'data/germany_vaccinations_by_state.tsv'
 print(p.exists())
 
 vacc_by_state = pd.read_csv(p, sep='\t')
