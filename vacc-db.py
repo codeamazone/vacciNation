@@ -29,7 +29,7 @@ timeseries.to_sql(sqlite_table3, sqlite_connection, if_exists='replace')
 sqlite_connection.close()
 
 
-# @todo:
+# @TODO:
 # write class to read and handle the data,
 # visualize data with matplotlib
 # vaccination of risk group, daily comparison -> create new table
